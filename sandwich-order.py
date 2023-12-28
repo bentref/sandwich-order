@@ -112,7 +112,7 @@ class mainwindow(Gtk.Window):
         global send_bool
         send_bool = args[0].get_active()
     def __init__(self):
-        Gtk.Window.__init__(self, title="Ben's BBQ and Foot Massage")
+        Gtk.Window.__init__(self, title="New Order")
         self.set_default_size(200, 100)
         self.set_icon_from_file("sandwich Logo v2.svg.png")
 
